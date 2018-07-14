@@ -1,0 +1,65 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+   .sidenav {
+    height: 800px;
+    width: 200px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    margin-left: -20px;
+}
+
+.sidenav a {
+    padding: 10px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    border-bottom: 1px solid white;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+     
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    background: #2c3e50;
+   
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    padding-right: 5px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 200px;
+    max-width: 40%;
+    border-radius: 5px;
+    border: 5px black;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
